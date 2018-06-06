@@ -1,6 +1,5 @@
 from sys import path
 import os
-# path.append(os.path.abspath('~/scripts/python/test/test_subpackage/'))
 path.append(os.path.abspath('../'))
 
 
