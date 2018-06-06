@@ -43,6 +43,7 @@ Suppose we have a module structure like this:
 
 Which means in order to call f1() within f2(), mod2.py must add mod1.py to its serach path. But the execute function is located within the positon of /module/run.py, which means we can addpath this path in run.py, which is the current directory. To add path within mod2.py, simple script is like this:
 ```
+# from ..submod2.mod22 import mod22
 from ..module1 import mod1
 def f2():
     mod1.f1()
